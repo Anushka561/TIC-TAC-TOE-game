@@ -27,18 +27,4 @@ function confettiFalling() {
 		boxxx.children[i].style.transform = "rotate("+ size*[i] +"deg)";
 	}
 }
-function confettistop(){
-	var div = document.createElement("div");
-	div.style.display="none";
-	// boxxx.style.display="none";
-	let confetti = document.querySelectorAll('.confetti');
-	confetti.style.width =0;
-	// 	confetti.style.height = "0";
-	// 	// confetti[i].style.left = "0";
-	
-}
-function startgame(){
-	boxxx.style.display="block";
-	
-}
-// confettiFalling();
+

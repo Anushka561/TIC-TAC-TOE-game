@@ -72,19 +72,6 @@
     margin: 150px auto;
 }
 
-.reset{
-    width:400px;
-    height:100px;
-    font-size: 4rem;
-    font-weight: 600;
-    
-
-}
-.reset:hover{
-    background-color: black;
-    color: #FFf;
-    border: 2px solid #fff;
-}
 .winningmessage{
     position:fixed;
     top:0;
@@ -118,7 +105,13 @@ display: none;
 .restart:hover{
     opacity: 0.8;
 }
+
  @media (max-width:1500px){
+    body{
+        
+        font-family: 'Comic Neue', cursive;
+    }
+   
     h1{
     
         font-size: 4rem;
@@ -148,16 +141,20 @@ display: none;
     text-align: center;
     border-radius: 10px;
     font-size: 3rem;
-    font-family: cursive;
+    /* font-family: cursive; */
+    font-family: 'Comic Neue', cursive;
     font-weight: 600;
     position: absolute;
+    
     background-color: rgb(219, 22, 22);
     top:90vh;
     right:30vw;
 
 }
  }
+ 
  @media (max-width:510px){
+  
     h1{
     
     font-size: 2.3rem;
@@ -195,6 +192,12 @@ margin-bottom: 0;
     background-color: rgb(219, 22, 22);
     top:80vh;
     right:30vw;
-
+outline: none;
 }
  }
+ @media (max-width:380px) and (max-height:740px){
+    .restart{
+        top:70vh;
+    }
+ }
+ 
