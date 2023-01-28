@@ -2,5 +2,5 @@
 
 Created this tic tac toe game using :-
 HTML 
-CSS 
+CSS5
 JAVASCRIPT
